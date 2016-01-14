@@ -1,6 +1,6 @@
 {
   "name": "rdf-parser-dom",
-  "version": "0.3.0-rc1",
+  "version": "0.3.0",
   "description": "Abstract base class for RDF Interface parser implementations that require DOM parsing",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-parser-dom",
   "dependencies": {
-    "rdf-parser-abstract": "^0.3.0-rc1",
+    "rdf-parser-abstract": "^0.3.0",
     "xmldom": "^0.1.19"
   }
 }
