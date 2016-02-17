@@ -1,12 +1,12 @@
 /* global DOMParser */
-var util = require('util')
+var inherits = require('inherits')
 var AbstractParser = require('rdf-parser-abstract')
 
 function DomParser (rdf) {
   AbstractParser.call(this, rdf)
 }
 
-util.inherits(DomParser, AbstractParser)
+inherits(DomParser, AbstractParser)
 
 DomParser.prototype.parseHtmlDom = function (toparse, base) {
   var parser = new DOMParser()
